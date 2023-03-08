@@ -32,5 +32,6 @@ public class TrainTicket {
 
         System.out.println("The price of you ticket is: " + decimalFormat.format(finalPrice) + " €");
 
+        scan.close();
     }
 }
